@@ -17,7 +17,7 @@ type Props = {
   preview?: boolean;
 };
 
-export default function Post({ post, morePosts, preview }: Props) {
+export default function Post({ post, preview }: Props) {
   const router = useRouter();
   const title = `${post.title} | ${CMS_NAME}`;
   if (!router.isFallback && !post?.slug) {

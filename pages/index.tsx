@@ -1,7 +1,5 @@
 import Container from "../components/container";
 import Stories from "../components/stories";
-import HeroPost from "../components/hero-post";
-import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
@@ -13,8 +11,7 @@ type Props = {
 };
 
 export default function Index({ allPosts }: Props) {
-  const heroPost = allPosts[0];
-  const posts = allPosts.slice(1);
+  const posts = allPosts.slice(0);
   return (
     <>
       <Layout>
@@ -32,7 +29,6 @@ export const getStaticProps = async () => {
     "title",
     "date",
     "slug",
-    "author",
     "coverImage",
     "excerpt",
   ]);
