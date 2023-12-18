@@ -14,16 +14,14 @@ type Props = {
 
 export default function Index({ allPosts }: Props) {
   const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+  const posts = allPosts.slice(1);
   return (
     <>
       <Layout>
         <Head>
           <title>{`${CMS_NAME}`}</title>
         </Head>
-        <Container>
-          {morePosts.length > 0 && <Stories posts={morePosts} />}
-        </Container>
+        <Container>{posts.length > 0 && <Stories posts={posts} />}</Container>
       </Layout>
     </>
   );
