@@ -2,7 +2,7 @@
 title: "Tecブログの書き方"
 excerpt: "Tecブログの書き方についてのまとめ"
 coverImage: "/assets/blog/image/sample1.jpg"
-date: "2023-12-23T00:47:00.002Z"
+date: "2023-12-23 00:47:00"
 ogImage:
   url: "/assets/blog/blog/sample1.jpg"
 ---
