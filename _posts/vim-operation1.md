@@ -2,7 +2,7 @@
 title: "Vim操作"
 excerpt: "オレオレVim操作のまとめ"
 coverImage: "/assets/blog/image/vim1.jpg"
-date: "2023-12-25T23:30:00.002Z"
+date: "2023-12-25 23:30:00"
 ogImage:
   url: "/assets/blog/blog/blog1.jpg"
 ---
