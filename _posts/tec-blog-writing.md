@@ -1,10 +1,10 @@
 ---
 title: "Tecブログの書き方"
 excerpt: "Tecブログの書き方についてのまとめ"
-coverImage: "/assets/blog/image/sample1.jpg"
+coverImage: "/assets/blog/image/blog1.jpg"
 date: "2023-12-23T00:47:00.002Z"
 ogImage:
-  url: "/assets/blog/blog/sample1.jpg"
+  url: "/assets/blog/blog/blog1.jpg"
 ---
 
 ## 技術ブログの書き方
